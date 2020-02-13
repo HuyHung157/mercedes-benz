@@ -1,0 +1,270 @@
+.brandhub{
+    margin: 2px 0 60px !important;
+    .branhub__btn-group{
+        padding: 60px 30px 20px 30px !important;
+        text-align: center;
+        .btn-group{
+            .nav-tabs {
+                border: none !important;
+                .nav-item{
+                    border: none !important;
+                    .nav-link{
+                        border: none !important;
+                        position: relative;
+                        margin: 0 20px !important;
+                        font-size: 14px;
+                        i{
+                            margin-right: 10px !important;
+                            font-size: 15px;
+                            transition: color 0.3s;
+                        }
+                        transition: all 0.3s;
+                        &.active{
+                            background-color: transparent !important;
+                            color: $color-blue-2 !important; 
+                        }
+                        &.active::after{
+                            height: 1px;
+                            opacity: 1;
+                        }
+                        &::after{
+                            background: $color-blue-2;
+                            bottom: 0;
+                            content: "";
+                            display: block;
+                            height: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: -10px;
+                            opacity: 0;
+                            position: absolute;
+                            transition: all 0.1s;
+                        }
+                    }      
+                }
+                .nav-item:hover i, .nav-link.active i{
+                    color: $color-blue-2 !important;
+                }
+            }
+        }
+    }
+    
+
+    .tab-content__1{
+        .row{
+            
+            .brandhub__item{
+                border:  1px $color-black-0 solid;
+                border-top-width: 0;
+                border-bottom-width: 2px;              
+                padding: 0px !important;   
+            }
+            .tab__item{
+                height: 570px;
+                width: 100%;
+                overflow: hidden !important;
+                position: relative;
+                &:hover .item_overplay{
+                    height: 25%;
+                    background: rgba(0,0,0,.7);
+                    .item__content{
+                        opacity: 1;
+                    }
+                }        
+            }
+            .row__item{
+                height: 285px;
+                overflow: hidden;
+                position: relative;
+                &:hover .item_overplay{
+                    height: 50%;
+                    background: rgba(0,0,0,.7);
+                    .item__content{
+                        opacity: 1;
+                    }
+                }
+            }
+            .item__detail{
+                .item_overplay{
+                    background: rgba(0,0,0,.35);
+                    bottom: 0;
+                    cursor: pointer;
+                    height: 50px;
+                    left: 0;
+                    overflow: hidden;
+                    padding: 13px 31px 13px 31px !important;
+                    position: absolute;
+                    transition: height .5s,background 1.5s;
+                    width: 100%;
+                    z-index: 15;
+                    .item_subtitle{
+                        color: #fff;
+                        // font-family: DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+                        font-size: 22px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        margin: 0;
+                        width: 100%;
+                    }
+                    .item__content{
+                        line-height: 18px;
+                        margin-top: 2px !important;
+                        opacity: 0;
+                        transition: opacity .5s ease-out;
+                    }
+                } 
+            }
+            
+            
+            .item_1{
+                background-image: url(./../img/brand-hub_1.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                
+            }
+            .item_2{
+                background-image: url(./../img/brand-hub_2.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_3{
+                background-image: url(./../img/brand-hub_3.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+                
+            }
+            .item_4{
+                background-image: url(./../img/brand-hub_4.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_5{
+                background-image: url(./../img/brand-hub_5.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_6{
+                background-image: url(./../img/brand-hub_6.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_7{
+                background-image: url(./../img/brand-hub_7.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_8{
+                background-image: url(./../img/brand-hub_8.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_9{
+                background-image: url(./../img/brand-hub_9.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_10{
+                background-image: url(./../img/brand-hub_10.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_11{
+                background-image: url(./../img/brand-hub_11.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_12{
+                background-image: url(./../img/brand-hub_12.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_13{
+                background-image: url(./../img/brand-hub_13.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_14{
+                background-image: url(./../img/brand-hub_14.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .item_15{
+                background-image: url(./../img/brand-hub_14.jpeg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+            .brandhub_more{
+                display: none !important; //Show: Float  
+                transition: all 0.5s;
+            }
+            .brandhub_show{
+                display: float !important ;
+                opacity: 1;
+            }
+        }
+        // ShowMore
+        .brandhub_more{
+            display: none !important; //Show: Float  
+            transition: all 0.5s;
+        }
+        .brandhub_show{
+            display: float !important ;
+            opacity: 1;
+        }
+    }
+    
+    
+    
+    .showmore__container{
+        font-size: 14px;
+        display: block;
+        padding-top: 25px !important;
+        text-align: center;
+        width: 100%;
+        //Showmore
+        .btn_showhide{
+            display: none !important;
+            opacity: 0;
+        }
+        .btn__showmore{
+            display: block !important;
+            margin: 0 auto !important;
+            border: 1px solid $color-black-3;
+            color: $color-gray-6 !important;
+            line-height: 20px;
+            padding: 6px 20px !important;
+            background: linear-gradient(#303030,#202020);
+            i{
+                margin: 4px 5px 0 0 !important;
+                color: $color-gray-6 !important;
+                transition: color 0.3s;
+            }
+            transition: color 0.3s;
+            &:hover, &:hover i{
+                color: $color-white-0 !important;
+            }
+            &:active{
+                background: linear-gradient(#202020,#101010);
+            }
+        }
+    }    
+    
+    
+}
+
+

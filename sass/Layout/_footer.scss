@@ -1,0 +1,81 @@
+.footer{
+    .row{
+        .language{
+            li{
+                color: $color-gray-7 !important;
+                font-size: 16px;
+                line-height: 24px;
+                &:hover{
+                    color: $color-blue-2 !important;
+                }
+            }
+            ul{
+                margin-bottom: 14px !important;
+                .lang_deutch{
+                    &:after{
+                        background: $color-gray-7;
+                        content: "";
+                        display: inline-block;
+                        height: 11px;
+                        margin-left: 13px;
+                        margin-right: 13px;
+                        position: relative;
+                        top: 1px;
+                        width: 1px;
+                    }
+                }
+                .lang_english{
+                    color: $color-white-1 !important;
+                    cursor: auto;
+                    &:hover{
+                        color: $color-white-1 !important;
+                    }
+                }
+            }
+        }
+        .footer__detail{
+            flex: 0 0 75%;
+            width: 75%;
+            .list_detail{
+                margin-bottom: 14px !important;
+                float: right;
+                li{
+                    float: left;
+                    a{
+                        color: $color-gray-7 !important;
+                        font-size: 16px;
+                        line-height: 24px;
+                        &::after{
+                            content: "";
+                            display: inline-block;
+                            margin: 0 8px;
+                            position: relative;
+                        }
+                        &:hover{
+                            color: $color-blue-2 !important;
+                        }
+                    }
+                }
+            }
+        }
+        .Back__top{
+            a, i{  
+                color: $color-gray-7 !important;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            a{
+                margin-left: 50% !important;
+            }
+            i{
+                margin-left: 5px !important;
+            }
+            &:hover{
+                a,i{
+                    color: $color-blue-2 !important;
+                }
+            }
+        }
+
+    }
+}

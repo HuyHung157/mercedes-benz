@@ -1,0 +1,84 @@
+.slider{
+    padding-top: 114px !important;
+    height: 720px !important;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+    .item_1{
+        background-image: url(./../img/Panel_1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .item_2{
+        background-image: url(./../img/Panel_2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .item_3{
+        background-image: url(./../img/Panel_3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .item_4{
+        background-image: url(./../img/Panel_4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .item_5{
+        background-image: url(./../img/Panel_5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .item_6{
+        background-image: url(./../img/Panel_6.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        // background-position: center center;
+    }
+    .item{
+        height: 650px !important;
+        .slider__content{
+            .slider__detail{
+                position: absolute;
+                top: 20%;
+                left: 5%;
+                
+            }
+        }
+    }
+    
+    
+    
+    .slider__control{
+        .owl-controls{
+            .owl-nav{
+                font-size: 40px;
+                color: $color-white-0;
+                // transition: color 2s !important;
+                i:hover {
+                    color: $color-gray-1 !important;
+                    cursor: pointer;
+                }
+                .preBtn{
+                    position: absolute;
+                    top: 50%;
+                    left: 2%;
+                    transform: translate(-50%);
+                    z-index: 9;
+                }
+                .nextBtn{
+                    position: absolute;
+                    top: 50%;
+                    right: 2%;
+                    transform: translate(-50%);
+                    z-index: 9;
+                }
+            }
+        }
+    }
+}

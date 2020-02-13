@@ -1,0 +1,10 @@
+.btn{
+    &--white{
+        @include button($fs-0, $fw-normal, $color-gray-4, $color-white-0
+            ,$color-black-0, $color-white-0)
+    }
+    &--red{
+        @include button($fs-0, $fw-normal, $color-white-0, $color-red-0
+            ,$color-white-0, $color-red-1)
+    }
+}

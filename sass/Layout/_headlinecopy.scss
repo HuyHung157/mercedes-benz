@@ -1,0 +1,60 @@
+.headlinecopy{
+    padding: 50px 0 !important;
+    .headlinecopy__container{
+        width: 100%;
+        padding-right: 1px;
+        padding-left: 1px;
+        margin: 0 auto !important;
+        @media (min-width: 480px){
+            max-width: 420px;
+        }
+        @media (min-width: 768px){
+            max-width: 708px;
+        }
+        @media (min-width: 1024px){
+            max-width: 964px;
+        }
+        @media (min-width: 1280px){
+            max-width: 1280px;
+        }
+    }
+    .headlinecopy__content{
+        max-width: 50%;
+        text-align: left;
+        padding: 60px 0 !important;
+        .headlinecopy__title{
+            h2{
+                // font-family: DaimlerCAC-Regular,Helvetica,Arial,sans-serif;
+                font-size: 2.5rem;
+                line-height: 1;
+                margin-bottom: 1rem !important;
+            }
+        }
+
+        .headlinecopy__detail{
+            p{
+                border: 0;
+                // font: inherit;
+                font-size: 100%;
+                margin: 0;
+                padding: 0;
+                vertical-align: baseline;
+            }
+        }
+        .btn_market{
+            margin-top: 40px !important;
+            background-color: $color-blue-2;
+            border: 1px solid $color-blue-2;
+            border-radius: 1px;
+            font-size: 16px;
+            color: $color-white-0;
+            padding: 5px 12px 6px 12px !important;
+            &:hover, &:active{
+                background-color: $color-blue-2;
+                border: 1px solid $color-blue-2;
+                border-radius: 1px;
+                color: #fff;
+            }
+        }
+    }
+}

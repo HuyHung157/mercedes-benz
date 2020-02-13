@@ -1,0 +1,51 @@
+@font-face{
+    src: url(./../../fonts/Daimler_CS.ttf);
+    font-family: DaimlerCS;
+}
+@font-face{
+    src: url(./../../fonts/Daimler_CS.ttf);
+    font-family: DaimlerCAC;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    color: $color-white-0 !important;   
+}
+body{
+    background-color: $color-black-0 ;
+}
+a:hover, a.nav-link:hover, i:active, li:hover{
+    cursor: pointer;
+    color: $color-blue-2 !important;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+li{
+    list-style: none;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    margin: 30px -1px !important;
+    overflow: visible;
+    position: relative;
+    &::before{
+        background: $color-black-1;
+        content: "";
+        display: block;
+        height: 1px;
+        left:   0;
+        position: absolute;
+        right: 0;
+    }
+}
+.spacer{
+    height: 35px;
+    width: 100%;
+    display: block;
+}

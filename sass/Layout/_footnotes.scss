@@ -1,0 +1,26 @@
+.footnotes{
+    font-size: 14px;
+    
+    .footnotes__content{
+        width: calc(100% - 60px);
+        margin: 0 auto !important;
+        .space-huge{
+            height: 35px;
+        }
+        .spacer-height{
+            height: 21px;
+            display: inline-block;
+        }
+        .footnotes__header{
+            .space{
+                display: inline-block;
+                width: 20px;
+            }
+        }
+        .footnotes__detail{
+            margin-bottom: 14px !important;
+            
+        }
+    }
+    
+}

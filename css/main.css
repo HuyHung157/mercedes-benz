@@ -1,0 +1,960 @@
+@font-face {
+  src: url(./../../fonts/Daimler_CS.ttf);
+  font-family: DaimlerCS; }
+@font-face {
+  src: url(./../../fonts/Daimler_CS.ttf);
+  font-family: DaimlerCAC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\000039}}
+html {
+  scroll-behavior: smooth; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000312}}
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+  color: #fff !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000318}}
+body {
+  background-color: #000000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000321}}
+a:hover, a.nav-link:hover, i:active, li:hover {
+  cursor: pointer;
+  color: #00adef !important;
+  text-decoration: none;
+  transition: color 0.3s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000327}}
+li {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000331}}
+hr {
+  border: 0;
+  height: 1px;
+  margin: 30px -1px !important;
+  overflow: visible;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000337}}
+  hr::before {
+    background: #333;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Base\/_reset\.scss}line{font-family:\0000347}}
+.spacer {
+  height: 35px;
+  width: 100%;
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Helpers\/_extend\.scss}line{font-family:\000031}}
+.background_cover {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\000031}}
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #000000;
+  transition: all 1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\000038}}
+  .header .header__container {
+    margin: 3px auto !important;
+    height: 80px;
+    position: relative;
+    width: 100%; }
+    @media only screen and (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\000038}}
+      .header .header__container {
+        height: 97px;
+        margin: 0 auto; } }
+    @media only screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\000038}}
+      .header .header__container {
+        height: 108px;
+        width: 1280px; } }
+    @media only screen and (min-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\000038}}
+      .header .header__container {
+        width: 1440px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000325}}
+    .header .header__container .header__details ul {
+      float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000327}}
+      .header .header__container .header__details ul li {
+        margin: 0 10px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000329}}
+        .header .header__container .header__details ul li a:nth-child(1):hover i {
+          color: #00adef !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000332}}
+        .header .header__container .header__details ul li i {
+          margin-right: 10px !important;
+          font-size: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000339}}
+    .header .header__container .navbar {
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000343}}
+      .header .header__container .navbar .navbar__left .navbar__logo-brand .logo {
+        position: absolute;
+        top: -3px;
+        left: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000348}}
+      .header .header__container .navbar .navbar__left .navbar__logo-brand .brand {
+        position: absolute;
+        top: 25px;
+        left: 130px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000356}}
+      .header .header__container .navbar .navbar__right ul {
+        position: absolute;
+        top: 33px;
+        right: 0;
+        margin: 0 0 0 auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000361}}
+        .header .header__container .navbar .navbar__right ul li {
+          display: inline-block;
+          margin: 0 18px !important;
+          width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_header\.scss}line{font-family:\0000365}}
+          .header .header__container .navbar .navbar__right ul li i:hover {
+            color: #00adef; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\000031}}
+.slider {
+  padding-top: 114px !important;
+  height: 720px !important;
+  width: auto;
+  position: relative;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\000037}}
+  .slider .item_1 {
+    background-image: url(./../img/Panel_1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000313}}
+  .slider .item_2 {
+    background-image: url(./../img/Panel_2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000319}}
+  .slider .item_3 {
+    background-image: url(./../img/Panel_3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000325}}
+  .slider .item_4 {
+    background-image: url(./../img/Panel_4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000331}}
+  .slider .item_5 {
+    background-image: url(./../img/Panel_5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000337}}
+  .slider .item_6 {
+    background-image: url(./../img/Panel_6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000343}}
+  .slider .item {
+    height: 650px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000346}}
+    .slider .item .slider__content .slider__detail {
+      position: absolute;
+      top: 20%;
+      left: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000359}}
+  .slider .slider__control .owl-controls .owl-nav {
+    font-size: 40px;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000363}}
+    .slider .slider__control .owl-controls .owl-nav i:hover {
+      color: #DDDDDD !important;
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000367}}
+    .slider .slider__control .owl-controls .owl-nav .preBtn {
+      position: absolute;
+      top: 50%;
+      left: 2%;
+      transform: translate(-50%);
+      z-index: 9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_carousel\.scss}line{font-family:\0000374}}
+    .slider .slider__control .owl-controls .owl-nav .nextBtn {
+      position: absolute;
+      top: 50%;
+      right: 2%;
+      transform: translate(-50%);
+      z-index: 9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\000031}}
+.brandhub {
+  margin: 2px 0 60px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\000033}}
+  .brandhub .branhub__btn-group {
+    padding: 60px 30px 20px 30px !important;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\000037}}
+    .brandhub .branhub__btn-group .btn-group .nav-tabs {
+      border: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\000039}}
+      .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-item {
+        border: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000311}}
+        .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-item .nav-link {
+          border: none !important;
+          position: relative;
+          margin: 0 20px !important;
+          font-size: 14px;
+          transition: color 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000316}}
+          .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-item .nav-link i {
+            margin-right: 10px !important;
+            font-size: 15px;
+            transition: color 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000322}}
+          .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-item .nav-link.active {
+            background-color: transparent !important;
+            color: #00adef !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000326}}
+          .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-item .nav-link.active::after {
+            height: 1px;
+            opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000330}}
+          .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-item .nav-link::after {
+            background: #00adef;
+            bottom: 0;
+            content: "";
+            display: block;
+            height: 0;
+            left: 0;
+            right: 0;
+            bottom: -10px;
+            opacity: 0;
+            position: absolute;
+            transition: all 0.1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000345}}
+      .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-item:hover i, .brandhub .branhub__btn-group .btn-group .nav-tabs .nav-link.active i {
+        color: #00adef !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000356}}
+  .brandhub .tab-content__1 .row .brandhub__item {
+    border: 1px #000000 solid;
+    border-top-width: 0;
+    border-bottom-width: 2px;
+    padding: 0px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000362}}
+  .brandhub .tab-content__1 .row .tab__item {
+    height: 570px;
+    width: 100%;
+    overflow: hidden !important;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000367}}
+    .brandhub .tab-content__1 .row .tab__item:hover .item_overplay {
+      height: 25%;
+      background: rgba(0, 0, 0, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000370}}
+      .brandhub .tab-content__1 .row .tab__item:hover .item_overplay .item__content {
+        opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000375}}
+  .brandhub .tab-content__1 .row .row__item {
+    height: 285px;
+    overflow: hidden;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000379}}
+    .brandhub .tab-content__1 .row .row__item:hover .item_overplay {
+      height: 50%;
+      background: rgba(0, 0, 0, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000382}}
+      .brandhub .tab-content__1 .row .row__item:hover .item_overplay .item__content {
+        opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\0000388}}
+  .brandhub .tab-content__1 .row .item__detail .item_overplay {
+    background: rgba(0, 0, 0, 0.35);
+    bottom: 0;
+    cursor: pointer;
+    height: 50px;
+    left: 0;
+    overflow: hidden;
+    padding: 13px 31px 13px 31px !important;
+    position: absolute;
+    transition: height .5s,background 1.5s;
+    width: 100%;
+    z-index: 15; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003100}}
+    .brandhub .tab-content__1 .row .item__detail .item_overplay .item_subtitle {
+      color: #fff;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: 0;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003109}}
+    .brandhub .tab-content__1 .row .item__detail .item_overplay .item__content {
+      line-height: 18px;
+      margin-top: 2px !important;
+      opacity: 0;
+      transition: opacity .5s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003119}}
+  .brandhub .tab-content__1 .row .item_1 {
+    background-image: url(./../img/brand-hub_1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003126}}
+  .brandhub .tab-content__1 .row .item_2 {
+    background-image: url(./../img/brand-hub_2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003132}}
+  .brandhub .tab-content__1 .row .item_3 {
+    background-image: url(./../img/brand-hub_3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003139}}
+  .brandhub .tab-content__1 .row .item_4 {
+    background-image: url(./../img/brand-hub_4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003145}}
+  .brandhub .tab-content__1 .row .item_5 {
+    background-image: url(./../img/brand-hub_5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003151}}
+  .brandhub .tab-content__1 .row .item_6 {
+    background-image: url(./../img/brand-hub_6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003157}}
+  .brandhub .tab-content__1 .row .item_7 {
+    background-image: url(./../img/brand-hub_7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003163}}
+  .brandhub .tab-content__1 .row .item_8 {
+    background-image: url(./../img/brand-hub_8.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003169}}
+  .brandhub .tab-content__1 .row .item_9 {
+    background-image: url(./../img/brand-hub_9.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003175}}
+  .brandhub .tab-content__1 .row .item_10 {
+    background-image: url(./../img/brand-hub_10.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003181}}
+  .brandhub .tab-content__1 .row .item_11 {
+    background-image: url(./../img/brand-hub_11.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003187}}
+  .brandhub .tab-content__1 .row .item_12 {
+    background-image: url(./../img/brand-hub_12.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003193}}
+  .brandhub .tab-content__1 .row .item_13 {
+    background-image: url(./../img/brand-hub_13.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003199}}
+  .brandhub .tab-content__1 .row .item_14 {
+    background-image: url(./../img/brand-hub_14.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003205}}
+  .brandhub .tab-content__1 .row .item_15 {
+    background-image: url(./../img/brand-hub_14.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003211}}
+  .brandhub .tab-content__1 .row .brandhub_more {
+    display: none !important;
+    transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003215}}
+  .brandhub .tab-content__1 .row .brandhub_show {
+    display: float !important;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003221}}
+  .brandhub .tab-content__1 .brandhub_more {
+    display: none !important;
+    transition: all 0.5s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003225}}
+  .brandhub .tab-content__1 .brandhub_show {
+    display: float !important;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003233}}
+  .brandhub .showmore__container {
+    font-size: 14px;
+    display: block;
+    padding-top: 25px !important;
+    text-align: center;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003240}}
+    .brandhub .showmore__container .btn_showhide {
+      display: none !important;
+      opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003244}}
+    .brandhub .showmore__container .btn__showmore {
+      display: block !important;
+      margin: 0 auto !important;
+      border: 1px solid #202020;
+      color: #999 !important;
+      line-height: 20px;
+      padding: 6px 20px !important;
+      background: linear-gradient(#303030, #202020);
+      transition: color 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003252}}
+      .brandhub .showmore__container .btn__showmore i {
+        margin: 4px 5px 0 0 !important;
+        color: #999 !important;
+        transition: color 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003258}}
+      .brandhub .showmore__container .btn__showmore:hover, .brandhub .showmore__container .btn__showmore:hover i {
+        color: #fff !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_brandhub\.scss}line{font-family:\00003261}}
+      .brandhub .showmore__container .btn__showmore:active {
+        background: linear-gradient(#202020, #101010); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\000031}}
+.channeltitle {
+  margin-bottom: 126px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\000033}}
+  .channeltitle .channeltitle__items {
+    margin: 0px 110px !important; }
+    @media only screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\000033}}
+      .channeltitle .channeltitle__items {
+        margin: 0px 10px !important;
+        column-gap: 0 !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000310}}
+    .channeltitle .channeltitle__items .channeltitle__item {
+      cursor: pointer;
+      width: 324px;
+      height: 175px;
+      padding: 0 9px !important; }
+      @media only screen and (max-width: 689px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000310}}
+        .channeltitle .channeltitle__items .channeltitle__item {
+          margin: 5px auto !important;
+          width: 300px;
+          height: 170px;
+          padding: 0 5px !important; } }
+      @media only screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000310}}
+        .channeltitle .channeltitle__items .channeltitle__item {
+          margin: 5px auto !important;
+          width: 245px;
+          height: 135px;
+          padding: 0 5px !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000327}}
+      .channeltitle .channeltitle__items .channeltitle__item .channel__item {
+        overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000329}}
+        .channeltitle .channeltitle__items .channeltitle__item .channel__item:hover::after {
+          height: 7px;
+          opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000333}}
+        .channeltitle .channeltitle__items .channeltitle__item .channel__item::after {
+          background: #00adef;
+          bottom: 0;
+          content: "";
+          display: block;
+          height: 0;
+          left: 8px;
+          right: 10px;
+          opacity: 0;
+          position: absolute;
+          transition: all 0.1s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000345}}
+        .channeltitle .channeltitle__items .channeltitle__item .channel__item img {
+          max-width: 306px;
+          height: auto; }
+          @media only screen and (max-width: 689px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000345}}
+            .channeltitle .channeltitle__items .channeltitle__item .channel__item img {
+              margin: 0 auto;
+              max-width: 296px;
+              height: auto; } }
+          @media only screen and (max-width: 576px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_channelttile\.scss}line{font-family:\0000345}}
+            .channeltitle .channeltitle__items .channeltitle__item .channel__item img {
+              margin: 0 auto;
+              max-width: 240px;
+              height: auto; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\000032}}
+.brandhub-search .brandhub-search__box {
+  padding: 26px 0 !important;
+  background-color: #1F1F1F !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\000035}}
+  .brandhub-search .brandhub-search__box .barndhub-search__container {
+    width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin: 0 auto !important; }
+    @media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\000035}}
+      .brandhub-search .brandhub-search__box .barndhub-search__container {
+        max-width: 420px; } }
+    @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\000035}}
+      .brandhub-search .brandhub-search__box .barndhub-search__container {
+        max-width: 708px; } }
+    @media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\000035}}
+      .brandhub-search .brandhub-search__box .barndhub-search__container {
+        max-width: 964px; } }
+    @media (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\000035}}
+      .brandhub-search .brandhub-search__box .barndhub-search__container {
+        max-width: 1280px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\0000322}}
+    .brandhub-search .brandhub-search__box .barndhub-search__container .brandhub-search__form {
+      display: block !important;
+      background-color: #000000;
+      margin: 0 auto !important;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\0000327}}
+      .brandhub-search .brandhub-search__box .barndhub-search__container .brandhub-search__form input {
+        background: #ececec;
+        border: 1px solid #ececec;
+        color: #333;
+        display: inline-block;
+        font-size: 18px;
+        height: 40px;
+        line-height: 23px;
+        padding: 5px 14px 4px 14px !important;
+        vertical-align: baseline;
+        width: calc(100% - 62px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\0000340}}
+      .brandhub-search .brandhub-search__box .barndhub-search__container .brandhub-search__form .btn_search {
+        background: #ececec;
+        border: 1px solid #ececec;
+        color: #333;
+        font-size: 15px;
+        height: 40px;
+        line-height: 40px;
+        margin-left: -5px !important;
+        padding: 1px 20px 1px 20px !important;
+        width: 55px;
+        border-radius: 1px;
+        cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\0000352}}
+        .brandhub-search .brandhub-search__box .barndhub-search__container .brandhub-search__form .btn_search i {
+          color: rgba(51, 51, 51, 0.8) !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_search\.scss}line{font-family:\0000357}}
+    .brandhub-search .brandhub-search__box .barndhub-search__container .form__inline {
+      display: flex;
+      align-items: center;
+      flex-flow: row wrap; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\000031}}
+.headlinecopy {
+  padding: 50px 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\000033}}
+  .headlinecopy .headlinecopy__container {
+    width: 100%;
+    padding-right: 1px;
+    padding-left: 1px;
+    margin: 0 auto !important; }
+    @media (min-width: 480px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\000033}}
+      .headlinecopy .headlinecopy__container {
+        max-width: 420px; } }
+    @media (min-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\000033}}
+      .headlinecopy .headlinecopy__container {
+        max-width: 708px; } }
+    @media (min-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\000033}}
+      .headlinecopy .headlinecopy__container {
+        max-width: 964px; } }
+    @media (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\000033}}
+      .headlinecopy .headlinecopy__container {
+        max-width: 1280px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\0000321}}
+  .headlinecopy .headlinecopy__content {
+    max-width: 50%;
+    text-align: left;
+    padding: 60px 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\0000326}}
+    .headlinecopy .headlinecopy__content .headlinecopy__title h2 {
+      font-size: 2.5rem;
+      line-height: 1;
+      margin-bottom: 1rem !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\0000335}}
+    .headlinecopy .headlinecopy__content .headlinecopy__detail p {
+      border: 0;
+      font-size: 100%;
+      margin: 0;
+      padding: 0;
+      vertical-align: baseline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\0000344}}
+    .headlinecopy .headlinecopy__content .btn_market {
+      margin-top: 40px !important;
+      background-color: #00adef;
+      border: 1px solid #00adef;
+      border-radius: 1px;
+      font-size: 16px;
+      color: #fff;
+      padding: 5px 12px 6px 12px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_headlinecopy\.scss}line{font-family:\0000352}}
+      .headlinecopy .headlinecopy__content .btn_market:hover, .headlinecopy .headlinecopy__content .btn_market:active {
+        background-color: #00adef;
+        border: 1px solid #00adef;
+        border-radius: 1px;
+        color: #fff; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footnotes\.scss}line{font-family:\000031}}
+.footnotes {
+  font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footnotes\.scss}line{font-family:\000034}}
+  .footnotes .footnotes__content {
+    width: calc(100% - 60px);
+    margin: 0 auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footnotes\.scss}line{font-family:\000037}}
+    .footnotes .footnotes__content .space-huge {
+      height: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footnotes\.scss}line{font-family:\0000310}}
+    .footnotes .footnotes__content .spacer-height {
+      height: 21px;
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footnotes\.scss}line{font-family:\0000315}}
+    .footnotes .footnotes__content .footnotes__header .space {
+      display: inline-block;
+      width: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footnotes\.scss}line{font-family:\0000320}}
+    .footnotes .footnotes__content .footnotes__detail {
+      margin-bottom: 14px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_sitemap\.scss}line{font-family:\000031}}
+.sitemap {
+  width: calc(100% - 60px);
+  margin: 0 auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_sitemap\.scss}line{font-family:\000035}}
+  .sitemap .brandhub-sitemapgroup .sitemap__titile {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 30px 0 25px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_sitemap\.scss}line{font-family:\0000311}}
+    .sitemap .brandhub-sitemapgroup .sitemap__titile::before {
+      background: #fff;
+      content: "";
+      display: block;
+      height: 2px;
+      margin-bottom: 23px;
+      position: relative;
+      width: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_sitemap\.scss}line{font-family:\0000323}}
+  .sitemap .brandhub-sitemapgroup .sitemap__footer .footer__menu li {
+    color: #999 !important;
+    font-size: 14px;
+    line-height: 22px;
+    -webkit-transition: color .25s ease-out;
+    transition: color .25s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_sitemap\.scss}line{font-family:\0000329}}
+    .sitemap .brandhub-sitemapgroup .sitemap__footer .footer__menu li:hover {
+      color: #00adef !important;
+      text-decoration: none;
+      transition: color 0.5s;
+      cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\000031}}
+.footerinfor {
+  width: calc(100% - 60px);
+  margin: 0 auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\000035}}
+  .footerinfor .footerinfor__content .footerinfor__title {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 35px;
+    margin: 30px 0 25px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000311}}
+    .footerinfor .footerinfor__content .footerinfor__title::before {
+      background: #fff;
+      content: "";
+      display: block;
+      height: 2px;
+      margin-bottom: 23px;
+      position: relative;
+      width: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000323}}
+  .footerinfor .footerinfor__content .footerinfor__detail .row p, .footerinfor .footerinfor__content .footerinfor__detail .row input, .footerinfor .footerinfor__content .footerinfor__detail .row button, .footerinfor .footerinfor__content .footerinfor__detail .row i, .footerinfor .footerinfor__content .footerinfor__detail .row a, .footerinfor .footerinfor__content .footerinfor__detail .row label {
+    color: #999 !important;
+    font-size: 14px;
+    margin-bottom: 14px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000328}}
+  .footerinfor .footerinfor__content .footerinfor__detail .row a:hover, .footerinfor .footerinfor__content .footerinfor__detail .row button:hover {
+    color: #00adef !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000333}}
+  .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__formcontrol {
+    display: block !important;
+    margin-bottom: 14px !important;
+    width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000337}}
+    .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__formcontrol .input__email {
+      background: #2a2a2a !important;
+      border: 1px solid #2a2a2a;
+      color: #495057 !important;
+      font-size: 21px;
+      height: 39px;
+      margin: 0;
+      width: 66.1%;
+      padding: 3px 15px !important;
+      vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000349}}
+    .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__formcontrol button {
+      background: linear-gradient(#242424, #0b0b0b);
+      border-bottom-color: #0b0b0b;
+      border-left-color: #2a2a2a;
+      border-radius: 0;
+      border-right-color: #0b0b0b;
+      border-style: solid;
+      border-top-color: #242424;
+      border-width: 1px;
+      font-size: 14px;
+      height: 40px;
+      margin: 0;
+      margin-left: -4px !important;
+      width: 33%;
+      vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000364}}
+      .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__formcontrol button i {
+        font-size: 12px;
+        margin-right: 5px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000371}}
+  .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__privacy .brandhub-styled-checkbox {
+    cursor: pointer;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000378}}
+    .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__privacy .brandhub-styled-checkbox:checked + label::after {
+      background: #fff !important;
+      box-shadow: 2px 0 0 #fff, 4px 0 0 #fff, 4px -2px 0 #fff, 4px -4px 0 #fff, 4px -6px 0 #fff, 4px -8px 0 #fff !important;
+      content: "";
+      height: 2px;
+      left: 3px;
+      position: absolute;
+      top: 8px;
+      transform: rotate(45deg);
+      width: 2px;
+      display: block !important;
+      box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000392}}
+  .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__privacy label {
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+    margin-bottom: 7px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\0000397}}
+    .footerinfor .footerinfor__content .footerinfor__detail .row .detail__left .detail__privacy label::before {
+      background: #2e2e2e;
+      content: "";
+      display: inline-block;
+      height: 16px;
+      margin-right: 10px;
+      vertical-align: text-top;
+      width: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\00003114}}
+  .footerinfor .footerinfor__content .footerinfor__detail .row .detail__right .detail__social ul {
+    display: block;
+    list-style: none;
+    margin: -15px -25px !important;
+    padding: 0;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\00003121}}
+    .footerinfor .footerinfor__content .footerinfor__detail .row .detail__right .detail__social ul li {
+      display: block;
+      float: left;
+      height: 30px;
+      margin: 15px 25px !important;
+      text-align: center;
+      width: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerinfor\.scss}line{font-family:\00003128}}
+      .footerinfor .footerinfor__content .footerinfor__detail .row .detail__right .detail__social ul li i {
+        font-size: 1.3em !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerlogo\.scss}line{font-family:\000032}}
+.footerlogo .footerlogo__container {
+  width: calc(100% - 60px);
+  margin: 0 auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerlogo\.scss}line{font-family:\000035}}
+  .footerlogo .footerlogo__container .row-logo {
+    margin: 0 auto !important;
+    flex: 1 1 33%;
+    margin-bottom: 14px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerlogo\.scss}line{font-family:\000039}}
+    .footerlogo .footerlogo__container .row-logo li {
+      margin: 28px auto !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footerlogo\.scss}line{font-family:\0000311}}
+      .footerlogo .footerlogo__container .row-logo li img {
+        height: 28px;
+        margin: 0 auto !important;
+        display: block !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\000034}}
+.footer .row .language li {
+  color: #636363 !important;
+  font-size: 16px;
+  line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\000038}}
+  .footer .row .language li:hover {
+    color: #00adef !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000312}}
+.footer .row .language ul {
+  margin-bottom: 14px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000315}}
+  .footer .row .language ul .lang_deutch:after {
+    background: #636363;
+    content: "";
+    display: inline-block;
+    height: 11px;
+    margin-left: 13px;
+    margin-right: 13px;
+    position: relative;
+    top: 1px;
+    width: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000327}}
+  .footer .row .language ul .lang_english {
+    color: #ececec !important;
+    cursor: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000330}}
+    .footer .row .language ul .lang_english:hover {
+      color: #ececec !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000336}}
+.footer .row .footer__detail {
+  flex: 0 0 75%;
+  width: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000339}}
+  .footer .row .footer__detail .list_detail {
+    margin-bottom: 14px !important;
+    float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000342}}
+    .footer .row .footer__detail .list_detail li {
+      float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000344}}
+      .footer .row .footer__detail .list_detail li a {
+        color: #636363 !important;
+        font-size: 16px;
+        line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000348}}
+        .footer .row .footer__detail .list_detail li a::after {
+          content: "";
+          display: inline-block;
+          margin: 0 8px;
+          position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000354}}
+        .footer .row .footer__detail .list_detail li a:hover {
+          color: #00adef !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000362}}
+.footer .row .Back__top a, .footer .row .Back__top i {
+  color: #636363 !important;
+  font-size: 16px;
+  line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000367}}
+.footer .row .Back__top a {
+  margin-left: 50% !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000370}}
+.footer .row .Back__top i {
+  margin-left: 5px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_footer\.scss}line{font-family:\0000374}}
+.footer .row .Back__top:hover a, .footer .row .Back__top:hover i {
+  color: #00adef !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_logostrap\.scss}line{font-family:\000032}}
+body .logostrap {
+  width: 230px;
+  z-index: 99;
+  position: fixed;
+  left: 100%;
+  top: 35%;
+  transform: translate(-44px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_logostrap\.scss}line{font-family:\000039}}
+  body .logostrap i {
+    display: inline-block;
+    font-size: 22px;
+    height: 44px;
+    line-height: 44px;
+    text-align: center;
+    width: 44px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_logostrap\.scss}line{font-family:\0000318}}
+  body .logostrap .logostrap__content li {
+    border-top-left-radius: 3px;
+    background: #1f1f1f;
+    height: 44px;
+    margin: 1px auto !important;
+    transition: transform .5s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_logostrap\.scss}line{font-family:\0000323}}
+    body .logostrap .logostrap__content li span {
+      line-height: 44px;
+      vertical-align: top; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_logostrap\.scss}line{font-family:\0000326}}
+      body .logostrap .logostrap__content li span:hover {
+        color: #ececec; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_logostrap\.scss}line{font-family:\0000328}}
+    body .logostrap .logostrap__content li:hover {
+      transform: translateX(-186px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Layout\/_logostrap\.scss}line{font-family:\0000333}}
+    body .logostrap .logostrap__content li .logostrap__social-link .logostrap__social-wrap i:hover {
+      color: #0088c6 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Component\/_button\.scss}line{font-family:\000032}}
+.btn--white {
+  font-weight: normal;
+  font-size: 15px;
+  color: #262626;
+  background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Helpers\/_mixin\.scss}line{font-family:\0000311}}
+  .btn--white:hover {
+    color: #000000;
+    background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Component\/_button\.scss}line{font-family:\000036}}
+.btn--red {
+  font-weight: normal;
+  font-size: 15px;
+  color: #fff;
+  background-color: #ec5252; }
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Learn\/Learn_FE\/FE33_BT\/BT_SASS\/BT\/sass\/Helpers\/_mixin\.scss}line{font-family:\0000311}}
+  .btn--red:hover {
+    color: #fff;
+    background-color: #992337; }
+
+/*# sourceMappingURL=main.css.map */
